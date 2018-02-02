@@ -1,0 +1,1 @@
+console.log("成功运行goodluck")

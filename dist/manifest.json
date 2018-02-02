@@ -1,0 +1,12 @@
+{
+  "name": "爬虫",
+  "manifest_version": 999,
+  "version": "1.0",
+  "description": "Goodluck的爬虫",
+  "content_scripts": [
+    {
+      "matches": ["https://github.com/*","http://www.csdn.net/*"],
+      "js": ["app.js"]
+    }
+  ]
+}

@@ -1,0 +1,36 @@
+{
+  "name": "pa",
+  "version": "0.0.1",
+  "dependencies": {},
+  "scripts": {
+    "dev": "node build/dev-server.js",
+    "build": "node build/build.js"
+  },
+  "devDependencies": {
+    "cheerio": "*",
+    "request": "*",
+    "webpack": "*",
+    "ora": "*",
+    "shelljs": "*",
+    "copy-webpack-plugin": "*",
+    "html-webpack-plugin": "*",
+    "extract-text-webpack-plugin": "*",
+    "webpack-merge": "*",
+    "babel-core": "*",
+    "babel-loader": "*",
+    "babel-plugin-component": "*",
+    "babel-plugin-import": "*",
+    "babel-plugin-transform-runtime": "*",
+    "babel-preset-env": "*",
+    "babel-preset-latest": "*",
+    "babel-preset-stage-0": "*",
+    "babel-register": "*",
+    "babel-runtime": "*",
+    "optimize-css-assets-webpack-plugin": "*",
+    "compression-webpack-plugin": "*"
+  },
+  "engines": {
+    "node": ">= 4.0.0",
+    "npm": ">= 3.0.0"
+  }
+}
